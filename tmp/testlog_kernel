@@ -1,0 +1,161 @@
+Jun 06 02:04:25 tegra-ubuntu kernel: Linux version 5.10.65-rt53-tegra (jenkins@ad-slave-14) (aarch64-buildroot-linux-gnu-gcc.br_real (Buildroot 2020.08) 9.3.0, GNU ld (GNU Binutils) 2.33.1) #1 SMP PREEMPT RT Fri May 27 23:52:11 CST 2022
+Jun 06 02:04:25 tegra-ubuntu kernel: Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: mem auto-init: stack:off, heap alloc:off, heap free:off
+Jun 06 02:04:25 tegra-ubuntu kernel: software IO TLB: mapped [mem 0x00000000effff000-0x00000000fffff000] (256MB)
+Jun 06 02:04:25 tegra-ubuntu kernel: Memory: 29112888K/30343168K available (18752K kernel code, 3578K rwdata, 7568K rodata, 4352K init, 2116K bss, 968136K reserved, 262144K cma-reserved)
+Jun 06 02:04:25 tegra-ubuntu kernel: arch_timer: cp15 timer(s) running at 31.25MHz (virt).
+Jun 06 02:04:25 tegra-ubuntu kernel: sched_clock: 56 bits at 31MHz, resolution 32ns, wraps every 4398046511088ns
+Jun 06 02:04:25 tegra-ubuntu kernel: Console: colour dummy device 80x25
+Jun 06 02:04:25 tegra-ubuntu kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 62.50 BogoMIPS (lpj=125000)
+Jun 06 02:04:25 tegra-ubuntu kernel: pid_max: default: 32768 minimum: 301
+Jun 06 02:04:25 tegra-ubuntu kernel: LSM: Security Framework initializing
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 31
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 2
+Jun 06 02:04:25 tegra-ubuntu kernel: IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: tcp_listen_portaddr_hash hash table entries: 16384 (order: 8, 1048576 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: TCP bind hash table entries: 65536 (order: 9, 3670016 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: TCP: Hash tables configured (established 262144 bind 65536)
+Jun 06 02:04:25 tegra-ubuntu kernel: UDP hash table entries: 16384 (order: 9, 2097152 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: UDP-Lite hash table entries: 16384 (order: 9, 2097152 bytes, linear)
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 1
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 38
+Jun 06 02:04:25 tegra-ubuntu kernel: e1000e: Intel(R) PRO/1000 Network Driver
+Jun 06 02:04:25 tegra-ubuntu kernel: e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Jun 06 02:04:25 tegra-ubuntu kernel: Initializing XFRM netlink socket
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 10
+Jun 06 02:04:25 tegra-ubuntu kernel: Segment Routing with IPv6
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 17
+Jun 06 02:04:25 tegra-ubuntu kernel: NET: Registered protocol family 15
+Jun 06 02:04:25 tegra-ubuntu kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Jun 06 02:04:25 tegra-ubuntu kernel: 9pnet: Installing 9P2000 support
+Jun 06 02:04:25 tegra-ubuntu kernel: driver not enabled, cannot register any devices
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: Adding to iommu group 29
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: failed to read MDIO address
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: setting to default DMA bit mask
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: Failed to reserve ivc channel:426
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: max-platform-mtu DT entry missing, setting default 1500
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: failed to get phy reset gpio error: -2
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: Ethernet MAC address: 70:b3:d5:20:ff:21
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: Macsec not enabled
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: Macsec: Reduced MTU: 1466 Max: 1500
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 2310000.ethernet: eqos_0 (HW ver: 53) created with 8 DMA channels
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: Adding to iommu group 30
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: failed to read MDIO address
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: setting to default DMA bit mask
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: Failed to reserve ivc channel:428
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: failed to get phy reset gpio error: -2
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: Ethernet MAC address: 70:b3:d5:20:00:21
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: Macsec not enabled
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: Macsec: Reduced MTU: 1466 Max: 9000
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6810000.ethernet: mgbe0_0 (HW ver: 31) created with 10 DMA channels
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: Adding to iommu group 31
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: failed to read MDIO address
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: setting to default DMA bit mask
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: Failed to reserve ivc channel:429
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: failed to get phy reset gpio error: -2
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: Ethernet MAC address: 70:b3:d5:20:01:21
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: Macsec not enabled
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: Macsec: Reduced MTU: 1466 Max: 9000
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6910000.ethernet: mgbe1_0 (HW ver: 31) created with 10 DMA channels
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: Adding to iommu group 32
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: failed to read MDIO address
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: setting to default DMA bit mask
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: Failed to reserve ivc channel:430
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: failed to get phy reset gpio error: -2
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: Ethernet MAC address: 70:b3:d5:20:02:21
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: Macsec not enabled
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: Macsec: Reduced MTU: 1466 Max: 9000
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6a10000.ethernet: mgbe2_0 (HW ver: 31) created with 10 DMA channels
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: Adding to iommu group 33
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: failed to read MDIO address
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: setting to default DMA bit mask
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: Failed to reserve ivc channel:431
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: failed to get phy reset gpio error: -2
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: Ethernet MAC address: 70:b3:d5:20:03:21
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_get_platform_res()
+Jun 06 02:04:25 tegra-ubuntu kernel: -->macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_enable_car()
+Jun 06 02:04:25 tegra-ubuntu kernel: <--macsec_probe()
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: Macsec not enabled
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: Macsec: Reduced MTU: 1466 Max: 9000
+Jun 06 02:04:25 tegra-ubuntu kernel: nvethernet 6b10000.ethernet: mgbe3_0 (HW ver: 31) created with 10 DMA channels
+Jun 06 02:04:25 tegra-ubuntu kernel: ALSA device list:
+Jun 06 02:04:25 tegra-ubuntu kernel:   No soundcards found.
+Jun 06 02:04:25 tegra-ubuntu kernel: Freeing unused kernel memory: 4352K
+Jun 06 02:04:25 tegra-ubuntu kernel: Run /init as init process
+Jun 06 02:04:25 tegra-ubuntu kernel:   with arguments:
+Jun 06 02:04:25 tegra-ubuntu kernel:     /init
+Jun 06 02:04:25 tegra-ubuntu kernel:     tegra_keep_boot_clocks
+Jun 06 02:04:25 tegra-ubuntu kernel:     disable_android_paranoid_network
+Jun 06 02:04:25 tegra-ubuntu kernel:     os
+Jun 06 02:04:25 tegra-ubuntu kernel:     tos:tzvault
+Jun 06 02:04:25 tegra-ubuntu kernel:   with environment:
+Jun 06 02:04:25 tegra-ubuntu kernel:     HOME=/
+Jun 06 02:04:25 tegra-ubuntu kernel:     TERM=linux
+Jun 06 02:04:25 tegra-ubuntu kernel:     aurixfw=AFW
+Jun 06 02:04:25 tegra-ubuntu kernel:     tegraid=23.0.0.0.4
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 2310000.ethernet eqos_0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 2310000.ethernet eth1: renamed from eqos_0
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 2310000.ethernet eth1: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6810000.ethernet mgbe0_0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6810000.ethernet mgbe0_0: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6810000.ethernet eth0: renamed from mgbe0_0
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6910000.ethernet mgbe1_0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6b10000.ethernet mgbe3_0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6a10000.ethernet mgbe2_0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu systemd-sysctl[796]: Couldn't write '1' to 'kernel/yama/ptrace_scope', ignoring: No such file or directory
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6910000.ethernet mgbe1_0: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6910000.ethernet eth2: renamed from mgbe1_0
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6b10000.ethernet eth4: renamed from mgbe3_0
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6a10000.ethernet eth3: renamed from mgbe2_0
+Jun 06 02:04:26 tegra-ubuntu kernel: CAN device driver interface
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6810000.ethernet eth0: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6810000.ethernet eth0: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6910000.ethernet eth2: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6910000.ethernet eth2: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6b10000.ethernet eth4: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: net can0: mttcan device registered (regs=00000000b053923d, irq=165)
+Jun 06 02:04:26 tegra-ubuntu kernel: nvethernet 6a10000.ethernet eth3: ether_get_wol: phydev is null check iface up status
+Jun 06 02:04:26 tegra-ubuntu kernel: net can1: mttcan device registered (regs=0000000025f16098, irq=166)
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6810000.ethernet eth0: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6910000.ethernet eth2: Macsec: Reduced MTU: 8966 Max: 9000
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6b10000.ethernet eth4: Link is Up - 10Gbps/Full - flow control off
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6a10000.ethernet eth3: Link is Up - 10Gbps/Full - flow contrnv_nvsciipc_initol off
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 2310000.ethernet eth1: Link is Up - 1Gbps/Full - flow control off
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6810000.ethernet eth0: Link is Up - 10Gbps/Full - flow control off
+Jun 06 02:04:27 tegra-ubuntu kernel: nvethernet 6910000.ethernet eth2: Link is Up - 10Gbps/Full - flow control off
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: 802.1Q VLAN Support v1.8
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: adding VLAN 0 to HW filter on device eth1
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: adding VLAN 0 to HW filter on device eth0
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: adding VLAN 0 to HW filter on device eth2
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: adding VLAN 0 to HW filter on device eth3
+Jun 06 02:04:27 tegra-ubuntu kernel: 8021q: adding VLAN 0 to HW filter on device eth4
+Jun 06 02:04:30 tegra-ubuntu kernel: nvethernet 6810000.ethernet: config.flags = 0x0, tx_type = 0x1,rx_filter = 0xc

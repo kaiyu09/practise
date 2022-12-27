@@ -1,0 +1,15 @@
+/home/nio/kkrepo/cmake_project/build/CMakeFiles/rebuild_cache.dir
+/home/nio/kkrepo/cmake_project/build/CMakeFiles/edit_cache.dir
+/home/nio/kkrepo/cmake_project/build/CMakeFiles/kkexe.dir
+/home/nio/kkrepo/cmake_project/build/src_cc/CMakeFiles/rebuild_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_cc/CMakeFiles/edit_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_cc/CMakeFiles/cc_exec.dir
+/home/nio/kkrepo/cmake_project/build/src_bb/CMakeFiles/edit_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_bb/CMakeFiles/bb_static.dir
+/home/nio/kkrepo/cmake_project/build/src_bb/CMakeFiles/rebuild_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_bb/CMakeFiles/bb_shared.dir
+/home/nio/kkrepo/cmake_project/build/src_aa/CMakeFiles/edit_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_aa/CMakeFiles/aa_static.dir
+/home/nio/kkrepo/cmake_project/build/src_aa/CMakeFiles/rebuild_cache.dir
+/home/nio/kkrepo/cmake_project/build/src_aa/CMakeFiles/aa_object.dir
+/home/nio/kkrepo/cmake_project/build/src_aa/CMakeFiles/aa_shared.dir

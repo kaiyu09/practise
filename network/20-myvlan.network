@@ -1,0 +1,11 @@
+[Match]
+Name=myvlan
+Type=vlan
+
+[Network]
+Description=The interface for myvlan
+
+# Very simple static IPv4-only address configuration.
+# Well, an IPv6-link-local address as well, by default.
+[Address]
+Address=10.1.2.3/24

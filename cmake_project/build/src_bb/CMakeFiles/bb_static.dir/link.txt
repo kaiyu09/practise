@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbb_static.a CMakeFiles/bb_static.dir/bb_test.cpp.o
+/usr/bin/ranlib libbb_static.a

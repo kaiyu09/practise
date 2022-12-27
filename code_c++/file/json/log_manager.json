@@ -1,0 +1,282 @@
+{
+    "app_list": [
+    "arb_app",
+    "can_rx",
+    "can_tx",
+    "cdm_eco_app",
+    "dds_dlb",
+    "dds_perf",
+    "dlb_app",
+    "dms_app",
+    "ehy_app",
+    "fct_app",
+    "fcts_app",
+    "launcher",
+    "coapp_mgr",
+    "coapp_proxy_tx",
+    "coapp_proxy_rx",
+    "parking_env_app",
+    "parking_planning_app",
+    "parking_process_app",
+    "position_app",
+    "radar_app",
+    "lidar_ctrl",
+    "lidar_dlb",
+    "camera_sal_app",
+    "camera_encoder_app",
+    "cdm_app",
+    "desensitization_app",
+    "snap_app",
+    "sysmon_app",
+    "syslog",
+    "mazu_history",
+    "root_history",
+    "log-manager",
+    "tsp-file-mgr",
+    "tsp-msg-mgr",
+    "mazu-flash",
+    "mcu_proxy",
+    "fota",
+    "nio_parameters",
+    "fault_manager",
+    "uds",
+    "flash_imu",
+    "flash_soc",
+    "flash_mcu",
+    "flash_gnss",
+    "flash_svc",
+    "flash_isp",
+    "flash_switch",
+    "calib-result-mgr",
+    "version-daemon",
+    "eol_service",
+    "disk_info",
+    "cpc_service",
+    "camera_intrinsic_service",
+    "traffic_info",
+    "hw_stats",
+    "hw_manager",
+    "mcu_log",
+    "mcu_uart_soc",
+    "resource_monitor",
+    "file_upload_mgr",
+    "fota-server",
+    "copy-util",
+    "arg_app_maps",
+    "audit",
+    "clock_time_manager"
+    ],
+    "split_max_size": 1,
+    "package_max_size": 150,
+
+    "apps_tailing_configs": [
+    {
+    "app_name": "arg_app",
+    "log_package_size_mb": 20,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": true,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "arb_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "can_rx",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "can_tx",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "cdm_eco_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "dds_dlb",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "dds_perf",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "dlb_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "dms_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "ehy_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "fct_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "fcts_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "launcher",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": true,
+    "is_s3_need_log": true,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "parking_env_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "parking_planning_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "parking_process_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "position_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "radar_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "lidar_ctrl",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": false,
+    "is_s3_need_log": true,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "lidar_dlb",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": false,
+    "is_s3_need_log": true,
+    "is_s4_need_log": false
+    },
+    {
+    "app_name": "camera_sal_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": true,
+    "is_s3_need_log": false,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "camera_encoder_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": true,
+    "is_s3_need_log": false,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "cdm_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "desensitization_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "snap_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": false,
+    "is_s2_need_log": false,
+    "is_s3_need_log": false,
+    "is_s4_need_log": true
+    },
+    {
+    "app_name": "sysmon_app",
+    "log_package_size_mb": 2,
+    "is_s1_need_log": true,
+    "is_s2_need_log": true,
+    "is_s3_need_log": true,
+    "is_s4_need_log": true
+    }
+    ]
+}

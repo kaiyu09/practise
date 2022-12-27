@@ -1,0 +1,169 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+# Copyright (c) 2022, NIO Inc. All rights reserved.
+#
+# Any use, reproduction, distribution, and/or transfer of this file is strictly
+# prohibited without the express written permission of the current copyright
+# owner.
+#
+# Any licensed derivative work must retain this notice.
+#
+# nfs_timedout.py : [file description]
+#
+
+
+import time
+import argparse
+import datetime
+import os
+import _thread
+import threading
+import subprocess
+
+
+kFilsNums = 20
+kFileSizeMb = 100
+kTotalFileSizeMb = kFilsNums * kFileSizeMb
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="did_cmd")
+    parser.add_argument("-t"
+                        "--target_dir",
+                        type=str,
+                        default="/nfs/s1/nio",
+                        help="target dir for nfs test")
+
+    parser.add_argument("-s",
+                        "--source_dir",
+                        type=str,
+                        default="/nio",
+                        help="target dir for nfs test")
+
+    parser.add_argument("-p",
+                        "--package_size_mb",
+                        type=str,
+                        default=100,
+                        help="package_size_mb")
+
+    parser.add_argument("-n",
+                        "--number_of_file",
+                        type=str,
+                        default=100,
+                        help="number_of_file")
+
+    args = parser.parse_args()
+    return args
+
+
+def run_cmd(cmd):
+    process = subprocess.Popen([cmd], shell=True,
+                               stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    ret = process.returncode
+    return [ret, stdout.decode('utf-8', 'replace'), stderr.decode('utf-8', 'replace')]
+
+
+class NfsTest(object):
+    def __init__(self):
+        self.target_dir = "/nfs/s1/mnt/flash"
+        self.source_dir = "/nio"
+        self.file_base_name = "nfs_test_file"
+        self.file_name_list = []
+        self.local_file_list = []
+
+    def create_file(self, file_path):
+        cmd = "sudo dd if=/dev/urandom of=" + \
+            "{} bs=1k count={}k".format(file_path, kFileSizeMb)
+        run_cmd(cmd)
+
+    def delete_file(self, file_dir):
+        # cmd = "rm -rf {}/{}*".format(file_dir, self.file_base_name)
+        # run_cmd(cmd)
+        pass
+        # cmd = "sync"
+        # run_cmd(cmd)
+
+    def creat_local_files(self):
+        thread_list = []
+        self.delete_file(self.source_dir)
+        start_time = time.clock_gettime(0)
+        for i in range(kFilsNums):
+            file_name = self.file_base_name + str(i)
+            self.file_name_list.append(file_name)
+            file_path = self.source_dir + "/" + file_name
+
+            create_file = threading.Thread(
+                target=self.create_file, args=(file_path,))
+            create_file.start()
+            thread_list.append(create_file)
+
+        for task in thread_list:
+            task.join()
+        end_time = time.clock_gettime(0)
+        time_interval = end_time - start_time
+        speed = kTotalFileSizeMb / time_interval
+
+        print("creat_local_files done, time used:{}, average spedd:{} mb/s ".format(time_interval, speed))
+
+    def copy_file(self, file_name):
+        cmd = "cp {}/{} {}/{}".format(self.source_dir,
+                                      file_name, self.target_dir, file_name)
+        run_cmd(cmd)
+
+    def copy_to_target_dir(self):
+        thread_list = []
+        self.delete_file(self.target_dir)
+
+        start_time = time.clock_gettime(0)
+        for name in self.file_name_list:
+            copy_file = threading.Thread(target=self.copy_file, args=(name,))
+            copy_file.start()
+            thread_list.append(copy_file)
+        for task in thread_list:
+            task.join()
+        end_time = time.clock_gettime(0)
+        time_interval = end_time - start_time
+        speed = kTotalFileSizeMb / time_interval
+
+        print("copy_to_target_dir done, time used:{}, average spedd:{} mb/s ".format(time_interval, speed))
+
+    def check_file(self, filename):
+        cmd = "md5sum {}/{}".format(self.source_dir, filename)
+        res_local = run_cmd(cmd)
+
+        cmd = "md5sum {}/{}".format(self.target_dir, filename)
+        res_target = run_cmd(cmd)
+
+        if res_local[1][:32] != res_target[1][:32]:
+            print("target {} different from local".format(filename))
+        else:
+            # print("target {} same to local".format(filename))
+            pass
+
+    def check_target_dir(self):
+
+        thread_list = []
+        for name in self.file_name_list:
+            copy_file = threading.Thread(target=self.check_file, args=(name,))
+            copy_file.start()
+            thread_list.append(copy_file)
+
+        for task in thread_list:
+            task.join()
+        print("check_target_dir done........")
+
+
+if __name__ == '__main__':
+    nfs = NfsTest()
+    args = parse_args()
+
+    nfs.source_dir = args.source_dir
+    nfs.target_dir = args.target_dir
+
+    while(1):
+
+        nfs.creat_local_files()
+        nfs.copy_to_target_dir()
+        nfs.check_target_dir()

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nio/kkrepo/code_c++/basecode/i2c/flash_isx031_intf.cpp
+fcntl.h
+-
+linux/i2c-dev.h
+-
+linux/i2c.h
+-
+pthread.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/ioctl.h
+-
+sys/stat.h
+-
+unistd.h
+-
+

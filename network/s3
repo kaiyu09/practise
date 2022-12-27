@@ -1,0 +1,51 @@
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      addresses: ["10.42.10.23/24"]
+      optional: true
+      mtu: 1024
+    eth1:
+      addresses: ["10.42.0.23/24"]
+      optional: true
+      mtu: 1024
+  vlans:
+    eth1.10:
+      id: 10
+      link: eth1
+      addresses: ["172.20.1.23/24"]
+    eth1.20:
+      id: 20
+      link: eth1
+      addresses: ["172.20.2.23/24"]
+      routes:
+        - to: 239.192.255.251/32
+          via: 0.0.0.0
+    eth1.30:
+      id: 30
+      link: eth1
+      addresses: ["172.20.3.23/24"]
+      nameservers:
+        addresses: ["172.20.3.31"]
+      routes:
+        - to: 10.0.0.0/8
+          via: 172.20.3.31
+    eth1.40:
+      id: 40
+      link: eth1
+      addresses: ["172.20.4.23/24"]
+      nameservers:
+        addresses: ["172.20.4.31"]
+      routes:
+        - to: 0.0.0.0/0
+          via: 172.20.4.31
+    eth1.50:
+      id: 50
+      link: eth1
+      addresses: ["172.20.5.23/24"]
+    eth1.200:
+      id: 200
+      link: eth1
+      addresses: ["10.42.20.23/24"]

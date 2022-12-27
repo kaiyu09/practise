@@ -1,0 +1,1 @@
+/usr/bin/c++   -g2 -std=gnu++17 -fPIC -Wall -Wextra   CMakeFiles/pb_generator.dir/pb_generator.cpp.o CMakeFiles/pb_generator.dir/nio_flash.pb.cc.o  -o pb_generator -lprotobuf 

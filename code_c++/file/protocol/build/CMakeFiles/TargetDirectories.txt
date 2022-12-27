@@ -1,0 +1,3 @@
+/home/nio/kkrepo/code_c++/file/protocol/build/CMakeFiles/rebuild_cache.dir
+/home/nio/kkrepo/code_c++/file/protocol/build/CMakeFiles/edit_cache.dir
+/home/nio/kkrepo/code_c++/file/protocol/build/CMakeFiles/pb_generator.dir

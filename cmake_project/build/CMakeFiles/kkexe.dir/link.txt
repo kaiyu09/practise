@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/kkexe.dir/kk_test.cpp.o -o kkexe 

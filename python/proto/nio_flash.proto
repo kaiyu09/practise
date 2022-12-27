@@ -1,0 +1,42 @@
+syntax = "proto2";
+
+package nio_flash;
+
+message Configure {
+  optional string target_name = 1;  // Used to print DEBUG information
+  optional string lib_name =
+      2;  // Used to load library files in local or bundle
+  repeated FlashPackage flash_package = 3;
+
+  // For whole bundle, flash package represent devices(SOC MCU ISP...) need be
+  // flashed For simple bundle, flash package represent different hardware type
+  message FlashPackage {
+    optional string name = 1;         //
+    repeated string flash_gate = 2;   //
+    repeated string switch_gate = 3;  //
+    optional string software_version = 4;
+    optional string hardware_version = 5;
+    optional BundleType bundle_type = 6 [default = kFull];
+    optional FlashType flash_type = 7;
+    optional bool is_skip = 8 [default = false];
+    optional bool is_allow_fail = 9 [default = false];
+    repeated FlashFile file_list = 10;  // For prepare bundle
+  }
+
+  message FlashFile {
+    optional string type = 1;
+    optional string path = 2;
+    optional string hash = 3;
+  }
+
+  enum FlashType {
+    kAll = 0;
+    kSilence = 1;
+    kNonSilence = 2;
+  }
+
+  enum BundleType {
+    kFull = 0;
+    kDiff = 1;
+  }
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaa_static.a CMakeFiles/aa_static.dir/aa_test.cpp.o
+/usr/bin/ranlib libaa_static.a

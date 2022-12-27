@@ -1,0 +1,86 @@
+Jun 06 02:04:26 tegra-ubuntu systemd-sysctl[796]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Jun 06 02:04:26 tegra-ubuntu systemd-sysctl[796]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Jun 06 02:04:26 tegra-ubuntu systemd-sysctl[796]: Couldn't write 'fq_codel' to 'net/core/default_qdisc', ignoring: No such file or directory
+
+Jun 06 02:04:26 tegra-ubuntu systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 06 02:04:26 tegra-ubuntu systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Found device /sys/subsystem/net/devices/eth0.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Reached target Sound Card.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting Network Service...
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: Enumeration completed
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Started Network Service.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth0: Interface name change detected, eth0 has been renamed to mgbe0_0.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: mgbe0_0: Interface name change detected, mgbe0_0 has been renamed to eth0.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth2: Interface name change detected, eth2 has been renamed to mgbe1_0.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: mgbe1_0: Interface name change detected, mgbe1_0 has been renamed to eth2.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth4: IPv6 successfully enabled
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth3: IPv6 successfully enabled
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1: IPv6 successfully enabled
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth0: IPv6 successfully enabled
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting Wait for Network to be Configured...
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth2: IPv6 successfully enabled
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting Network Name Resolution...
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting Login Service...
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting Mount NIO EMMC...
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Started LSB: Record successful boot for GRUB.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: nv_tzvault_daemon@common-server-testapp.service: Succeeded.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth4: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Started Login Service.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Finished Wait for Network to be Configured.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: nv_board_init.service: Succeeded.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Finished Board specific initialization.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Reached target Companion services for Nvidia Tegra.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: nv_tzvault_daemon@sample_service3_gp.service: Succeeded.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Started Network Name Resolution.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Reached target Network.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Reached target Network is Online.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Reached target Host and Network Name Lookups.
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Starting configure nio_vlan...
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth4: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth3: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth3: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth0: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd[1]: Started OpenBSD Secure Shell server.
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth0: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth2: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth2: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.10: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.10: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.20: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.20: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.30: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.30: Gained carrier
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.40: Link UP
+Jun 06 02:04:27 tegra-ubuntu systemd-networkd[946]: eth1.40: Gained carrier
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth1.50: Link UP
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth1.50: Gained carrier
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth1.200: Link UP
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth1.200: Gained carrier
+Jun 06 02:04:28 tegra-ubuntu sudo[1692]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemd-resolve --interface=eth1.30 --set-dns=172.20.3.31
+Jun 06 02:04:28 tegra-ubuntu sudo[1694]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemd-resolve --interface=eth1.40 --set-dns=172.20.4.31
+Jun 06 02:04:28 tegra-ubuntu systemd[1]: nio_vlan.service: Succeeded.
+Jun 06 02:04:28 tegra-ubuntu systemd[1]: Started configure nio_vlan.
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth4: Gained IPv6LL
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth2: Gained IPv6LL
+Jun 06 02:04:28 tegra-ubuntu systemd-networkd[946]: eth0: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.40: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth3: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.30: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.10: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.50: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd[1]: Starting Network Time Service...
+Jun 06 02:04:29 tegra-ubuntu systemd[1]: Started Network Time Service.
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.200: Gained IPv6LL
+Jun 06 02:04:29 tegra-ubuntu systemd-networkd[946]: eth1.20: Gained IPv6LL
+Jun 06 06:34:54 tegra-ubuntu systemd[790429]: Closed GnuPG network certificate management daemon.
+Jun 06 06:34:56 tegra-ubuntu systemd[48005]: Listening on GnuPG network certificate management daemon.
+Jun 06 06:40:04 tegra-ubuntu systemd[48005]: Closed GnuPG network certificate management daemon.
+Jun 06 06:48:40 tegra-ubuntu systemd[263499]: Listening on GnuPG network certificate management daemon.
+Jun 06 07:29:39 tegra-ubuntu systemd[263499]: Closed GnuPG network certificate management daemon.
+Jun 06 07:32:41 tegra-ubuntu systemd[953011]: Listening on GnuPG network certificate management daemon
+.

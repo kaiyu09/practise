@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/i2ctest.dir/flash_isx031_intf.cpp.o  -o i2ctest 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cc_exec.dir/cc_test.cpp.o -o cc_exec  -Wl,-rpath,/home/nio/kkrepo/cmake_project/build/src_aa:/home/nio/kkrepo/cmake_project/build/src_bb ../src_aa/libaa_shared.so ../src_bb/libbb_shared.so 

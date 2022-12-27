@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libbb_shared.so -o libbb_shared.so CMakeFiles/bb_shared.dir/bb_test.cpp.o 

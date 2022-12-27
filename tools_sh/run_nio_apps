@@ -1,0 +1,71 @@
+#!/bin/bash
+
+RUN_SUD_CMD="/home/mazu/app/run-sud.sh"
+RUN_EOL_CMD="/home/mazu/app/run-eol.sh"
+APP_MODE_DIR="/nfs/s1/nio"
+APP_MODE_FILE="${APP_MODE_DIR}/config/app_eol_mode"
+LOGGER_TAG="run_nio_apps"
+
+app_mode_value=255
+
+function log() {
+    logger -t ${LOGGER_TAG} $1
+}
+
+function check_folder_mount() {
+    # Should make sure timeout is enough for soc2-4 to wait
+    # util soc1 is awake and mount the folder
+    CHECK_MOUNT_TIMEOUT_SEC=30
+    CHECK_MOUNT_INTERVAL_SEC=1
+
+    folder=$APP_MODE_DIR
+    elasped_sec=0
+    log "Checking if ${folder} mounted"
+    while [ ${elasped_sec} -lt ${CHECK_MOUNT_TIMEOUT_SEC} ]; do
+        if mountpoint -q $folder; then
+            log "Folder mounted: ${folder}"
+            return
+        else
+            sleep ${CHECK_MOUNT_INTERVAL_SEC}
+            elasped_sec=$(expr ${elasped_sec} + ${CHECK_MOUNT_INTERVAL_SEC})
+            log "Found folder not mounted ${folder}, elasped ${elasped_sec}s"
+        fi
+    done
+}
+
+function get_app_run_mode_value() {
+    check_folder_mount
+    if [[ ! -f $APP_MODE_FILE ]]; then
+        log "ERROR::$APP_MODE_FILE not exist, timeout, pls check"
+        app_mode_value=254
+        return
+    fi
+    if [[ ! -s $APP_MODE_FILE ]]; then
+        log "ERROR::$APP_MODE_FILE is empty, pls check"
+        app_mode_value=253
+        return
+    fi
+    key=$(cat $APP_MODE_FILE)
+    app_mode_value=${key}
+}
+
+function main() {
+    get_app_run_mode_value
+    app_mode=$app_mode_value
+    case ${app_mode} in
+    0)
+        log "INFO::Run mode=${app_mode}: SUD "
+        ${RUN_SUD_CMD}
+        ;;
+    1)
+        log "INFO::Run mode=${app_mode}: EOL "
+        ${RUN_EOL_CMD}
+        ;;
+    *)
+        log "ERROR::Invalid mode=${app_mode}, run mode: SUD as default"
+        ${RUN_SUD_CMD}
+        ;;
+    esac
+}
+
+main "$@"

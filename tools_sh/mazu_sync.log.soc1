@@ -1,0 +1,1082 @@
+dirty_mem set mode test cycle times = 1 
+tune2fs 1.46.2 (28-Feb-2021)
+dirty_mem set mode test cycle times = 1 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:33 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 2 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:35 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 3 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:37 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 4 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:39 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 5 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:41 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 6 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:43 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 7 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:45 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 8 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:47 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 9 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:49 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 10 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:51 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 11 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:54 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 12 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:56 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 13 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 12:58 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 14 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:00 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 15 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:02 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 16 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:05 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 17 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:07 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 18 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:09 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 19 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:11 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 20 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:13 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 21 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:15 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 22 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:17 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 23 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:19 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 24 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:21 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 25 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:23 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+dirty_mem set mode test cycle times = 26 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:24 file7g
+[  119.006942]  wb_wait_for_completion+0x84/0xb0
+[  124.130946]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 27 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:26 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 28 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:28 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 29 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:30 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 30 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:33 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 31 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:35 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 32 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:37 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 33 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:39 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 34 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:41 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 35 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:43 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 36 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:44 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 37 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:46 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 38 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:49 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 39 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:51 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 40 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:53 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 41 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:55 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 42 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:57 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 43 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 13:59 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 44 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:01 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 45 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:04 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 46 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:06 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 47 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:08 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 48 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:10 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 49 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:12 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+dirty_mem set mode test cycle times = 50 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:14 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+eeeeeeeeeeeeeeeeee dirty_mem total hung times = 1
+normal_mode test cycle times = 1 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:15 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+normal_mode test cycle times = 2 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:18 file7g
+[  164.834791]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 3 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:20 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 4 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:22 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 5 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:24 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 6 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:27 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 7 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:29 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 8 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:31 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 9 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:33 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 10 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:35 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 11 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:37 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 12 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:39 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+normal_mode test cycle times = 13 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:40 file7g
+[  128.995321]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 2
+normal_mode test cycle times = 14 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:42 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 2
+normal_mode test cycle times = 15 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:44 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 2
+normal_mode test cycle times = 16 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:46 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 2
+normal_mode test cycle times = 17 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:48 file7g
+[  128.990996]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 3
+normal_mode test cycle times = 18 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:50 file7g
+[  123.874764]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+normal_mode test cycle times = 19 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:52 file7g
+[  128.994866]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 20 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:54 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 21 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:56 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 22 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 14:58 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 23 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:00 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 24 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:02 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+normal_mode test cycle times = 25 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:04 file7g
+[  123.871110]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 26 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:06 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 27 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:08 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 28 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:10 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 29 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:12 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 30 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:14 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 31 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:16 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 32 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:18 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 33 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:20 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 34 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:22 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+normal_mode test cycle times = 35 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:24 file7g
+[  139.231150]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 36 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:27 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 37 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:29 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 38 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:31 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 39 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:33 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 40 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:35 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 41 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:37 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 42 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:40 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 43 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:42 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+normal_mode test cycle times = 44 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:44 file7g
+[  128.995223]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 8
+normal_mode test cycle times = 45 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:46 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 8
+normal_mode test cycle times = 46 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:48 file7g
+[  134.111107]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+normal_mode test cycle times = 47 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:50 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+normal_mode test cycle times = 48 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:52 file7g
+[  123.874916]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 10
+normal_mode test cycle times = 49 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:54 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 10
+normal_mode test cycle times = 50 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:57 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 10
+eeeeeeeeeeeeeeeeee normal_mode total hung times = 10
+fast_commit mode test cycle times = 1 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 15:58 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 2 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:00 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 3 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:02 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 4 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:04 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 5 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:07 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 6 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:09 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 7 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:10 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 8 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:12 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 9 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:14 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 0
+fast_commit mode test cycle times = 10 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:16 file7g
+[  124.127004]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+fast_commit mode test cycle times = 11 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:18 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 1
+fast_commit mode test cycle times = 12 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:21 file7g
+[  149.475227]  wb_wait_for_completion+0x84/0xb0
+[  154.595243]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 2
+fast_commit mode test cycle times = 13 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:23 file7g
+[  154.846745]  wb_wait_for_completion+0x84/0xb0
+[  159.966731]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 3
+fast_commit mode test cycle times = 14 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:26 file7g
+[  124.127211]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 15 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:28 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 16 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:30 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 17 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:32 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 18 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:35 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 19 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:37 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 20 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:38 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 4
+fast_commit mode test cycle times = 21 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:40 file7g
+[  129.250809]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 5
+fast_commit mode test cycle times = 22 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:42 file7g
+[  134.366900]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+fast_commit mode test cycle times = 23 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:45 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 6
+fast_commit mode test cycle times = 24 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:47 file7g
+[  159.967027]  wb_wait_for_completion+0x84/0xb0
+[  165.091013]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 25 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:50 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 26 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:52 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 27 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:54 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 28 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:56 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 29 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 16:58 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 30 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:00 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 31 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:02 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 32 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:05 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 33 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:07 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 34 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:09 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 35 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:11 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 36 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:13 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 37 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:15 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 38 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:17 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 39 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:19 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 7
+fast_commit mode test cycle times = 40 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:21 file7g
+[  129.246967]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 8
+fast_commit mode test cycle times = 41 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:23 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 8
+fast_commit mode test cycle times = 42 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:25 file7g
+[  134.366932]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 43 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:27 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 44 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:29 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 45 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:31 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 46 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:33 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 47 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:36 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 48 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:38 file7g
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 9
+fast_commit mode test cycle times = 49 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:40 file7g
+[  128.990957]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 10
+fast_commit mode test cycle times = 50 
+tune2fs 1.46.2 (28-Feb-2021)
+total 6.9G
+-rw-r--r-- 1 root root 6.9G Aug 27 17:42 file7g
+[  124.126868]  wb_wait_for_completion+0x84/0xb0
+[  129.246873]  wb_wait_for_completion+0x84/0xb0
+[10.42.0.146] [MCU1] UDP Command>aurixreset
+wait soc reboot
+aaaaaaaaaa total hung times = 11
+eeeeeeeeeeeeeeeeee fast_commit total hung times = 11
