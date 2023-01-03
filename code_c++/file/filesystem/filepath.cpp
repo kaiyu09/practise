@@ -23,7 +23,7 @@
 namespace fs = std::filesystem;
 
 static const fs::path demo_file_path =
-    "/mnt/kaiyu/kkrepo/code_c++/file/../file/filesystem/demotest";
+    "/mnt/kai/kkrepo/code_c++/file/../file/filesystem/demotest";
 static const fs::path bbbbb = "/mnt/yu/mywork/2868/parameters";
 
 int main() {

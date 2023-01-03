@@ -21,23 +21,25 @@ import tarfile
 
 
 a = [1, 2, 3, 4]
+a = '20220930_mazu_gnss_v0.6.3.tar.gz\n'
+print(a)
+print(a)
+print(a)
 
+b = a.strip()
+print(b)
+print(b)
+print(b)
 
-for soc in a:
-    mcu = (soc+1)//2
-    index = 2-(soc % 2)
-    print(soc, mcu, index)
+c = "\n"
+print(c)
+print(c)
+print(c)
+print(len(c))
 
-
-abc = "yuki,hdsjf.\n"
-print(abc)
-print(abc.strip("\n"))
-print(abc.strip("\n"))
-print(abc.strip("\n"))
-
-
-aaa = "yu"
-bbb = "kk"
-
-ccc = "{:<10}: {:<}, \n".format(aaa, bbb)
-print(ccc)
+print("1111")
+d = c.strip()
+print(d)
+print(d)
+print(d)
+print(len(d))

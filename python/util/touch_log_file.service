@@ -1,0 +1,29 @@
+# Copyright (c) 2022, NIO Inc. All rights reserved.
+#
+# Any use, reproduction, distribution, and/or transfer of this file is strictly
+# prohibited without the express written permission of the current copyright
+# owner.
+#
+# Any licensed derivative work must retain this notice.
+#
+# touch_log_file.service : [file description]
+#
+
+[Unit]
+Description=touch_log_file
+
+After=nio_emmc_mount.service
+
+
+[Service]
+ExecStart=/bin/bash /bin/touch_log_file.sh
+# Type=forking
+Type=simple
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=touch_log_file
+User=mazu
+Group=mazu
+
+[Install]
+WantedBy=multi-user.target

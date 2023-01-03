@@ -2,8 +2,12 @@
 #include <iostream>
 #include <map>
 #include <string>
-
-std::map<std::string, int> student = {
+static const std::map<std::string, int> student_aa = {
+    {"aa", 31},
+    {"bb", 32},
+    {"cc", 33},
+};
+static std::map<std::string, int> student = {
     {"aa", 31},
     {"bb", 32},
     {"cc", 33},
@@ -20,7 +24,8 @@ int main() {
     // std::cout << student.key << std::endl;
   }
 
-  // std::cout << student["aa"] << std::endl;
+  std::cout << "here kk" << student["aa"] << std::endl;
+  std::cout << "here yy" << student_aa.at("aa") << std::endl;
   // std::string abc = "helloword\n";
   // printf("%s\n", abc.c_str());
   // printf("%ld\n", abc.size());
