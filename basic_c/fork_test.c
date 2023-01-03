@@ -2,19 +2,18 @@
 #include <unistd.h>
 #define PRICE 56
 
-int main(int argc, char const *argv[])
-{
-  printf("hello world!!\n");
-  fork();
-  printf("hello world 22!!\n");
+void PrintDemo() { printf("hello world!!\n"); }
 
+int main(int argc, char const *argv[]) {
+  PrintDemo();
   fork();
-  printf("hello world 33!!\n");
+  PrintDemo();
+  fork();
+  PrintDemo();
+  sleep(3);
 
-  sleep(20);
 
   return 0;
 }
-
 
 // 程序 = 数据 + 算法
